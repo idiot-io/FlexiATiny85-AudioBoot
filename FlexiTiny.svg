@@ -59,21 +59,6 @@
       <feColorMatrix
          id="feColorMatrix12435"
          values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
-         result="fbSourceGraphic" />
-      <feColorMatrix
-         result="fbSourceGraphicAlpha"
-         in="fbSourceGraphic"
-         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
-         id="feColorMatrix12437" />
-      <feColorMatrix
-         id="feColorMatrix12439"
-         type="hueRotate"
-         values="180"
-         result="color1"
-         in="fbSourceGraphic" />
-      <feColorMatrix
-         id="feColorMatrix12441"
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
          result="color2" />
     </filter>
   </defs>
@@ -84,11 +69,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="1341.6895"
-     inkscape:cy="713.3774"
+     inkscape:zoom="1"
+     inkscape:cx="828.6601"
+     inkscape:cy="568.76604"
      inkscape:document-units="mm"
-     inkscape:current-layer="g12393"
+     inkscape:current-layer="layer6"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -118,9 +103,9 @@
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.20000003;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect10290"
        width="112.42876"
-       height="85.209167"
+       height="89.971672"
        x="43.718056"
-       y="144.3802"
+       y="142.26357"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150"
        inkscape:export-filename="C:\DEV\FlexiTiny\NeoDeluxe.png" />
@@ -128,21 +113,21 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.42779207px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="53.210949"
-       y="150.63245"
+       y="149.57413"
        id="text10984"><tspan
          sodipodi:role="line"
          id="tspan10982"
          x="53.210949"
-         y="150.63245"
+         y="149.57413"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">V1.0 (DIP)</tspan></text>
     <text
        id="text10988"
-       y="150.63245"
+       y="149.57413"
        x="77.393456"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.42779207px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         y="150.63245"
+         y="149.57413"
          x="77.393456"
          id="tspan10986"
          sodipodi:role="line">V1.0 (SMD)</tspan></text>
@@ -150,32 +135,32 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.42779207px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="104.11636"
-       y="150.10329"
+       y="149.04497"
        id="text10992"><tspan
          sodipodi:role="line"
          id="tspan10990"
          x="104.11636"
-         y="150.10329"
+         y="149.04497"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">V1.1 (SMD)</tspan></text>
     <text
        id="text10996"
-       y="153.27824"
+       y="152.21992"
        x="101.91959"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.42779207px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         y="153.27824"
+         y="152.21992"
          x="101.91959"
          id="tspan10994"
          sodipodi:role="line">Deluxe (1515)</tspan></text>
     <text
        id="text9193"
-       y="150.10329"
+       y="149.04497"
        x="131.63301"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.42779207px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         y="150.10329"
+         y="149.04497"
          x="131.63301"
          id="tspan9191"
          sodipodi:role="line">V1.1 (SMD)</tspan></text>
@@ -183,12 +168,12 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.42779207px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="125.88921"
-       y="153.27824"
+       y="152.21992"
        id="text9197"><tspan
          sodipodi:role="line"
          id="tspan9195"
          x="125.88921"
-         y="153.27824"
+         y="152.21992"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">Deluxe (NeoPixel)</tspan></text>
   </g>
   <g
