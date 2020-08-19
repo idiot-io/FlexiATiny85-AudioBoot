@@ -1,5 +1,5 @@
 # FlexiATiny85-AudioBoot
-Fexible ATtiny85 PCB w/ Audio Bootloader
+Flexible ATtiny85 PCB w/ Audio Bootloader
 
 ![V1.1](https://github.com/idiot-io/FlexiATiny85-AudioBoot/blob/master/IMG/EtchedPcb.jpg)
 
