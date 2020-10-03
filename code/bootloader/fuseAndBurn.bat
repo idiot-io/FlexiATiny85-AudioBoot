@@ -3,7 +3,7 @@
 ::
 :: this is for fuse and burn 
 :: in windows with arduino installed
-:: install attinycore core in arduino 
+:: install 8BitMixtape core in arduino 
 ::
 set SERIAL_PORT=COM8
 ::stk500v1=="arduino as isp"
@@ -14,6 +14,7 @@ set PROGRAMMER=stk500v1
 :: the actual HEX to burn
 set HEX=%~dp0\AudioBootAttiny_AudioPB3_PB0.hex
 
+::change 'Admin' below to your pc user. 
 cd C:\Users\Admin\AppData\Local\Arduino15\packages\8BitMixtape\hardware\avr\0.0.28\tools\avrdude\windows
 
 goto fuse
