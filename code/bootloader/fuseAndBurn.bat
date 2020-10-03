@@ -12,25 +12,28 @@ set PROGRAMMER=stk500v1
 :: if you installed arduino this folder should exsit under your user
 
 :: the actual HEX to burn
-set HEX=%~dp0\main.hex
-
+set HEX=%~dp0\AudioBootAttiny_AudioPB3_PB0.hex
 
 cd C:\Users\Admin\AppData\Local\Arduino15\packages\8BitMixtape\hardware\avr\0.0.28\tools\avrdude\windows
 
+goto fuse
+
+:fuse
+echo fuse me
 :: burn fuses
 cd %AVRPATH%
 avrdude ^
 -Cavrdude.conf -v ^
--p t85 ^
+-p attiny85 ^
 -c stk500v1 ^
 -P %SERIAL_PORT% ^
 -b 19200 ^
--U efuse:w:0xfe:m ^
--U hfuse:w:0xdd:m ^
--U lfuse:w:0xe1:m
+-U efuse:w:0xFE:m ^
+-U hfuse:w:0xDD:m ^
+-U lfuse:w:0xE1:m
 
-
-
+:flash
+echo flash me
 ::cd C:\Users\Admin\AppData\Local\Arduino15\packages\8BitMixtape\hardware\avr\0.0.28
 avrdude ^
 -Cavrdude.conf ^
